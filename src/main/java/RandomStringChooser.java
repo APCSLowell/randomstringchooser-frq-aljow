@@ -10,7 +10,7 @@ public class RandomStringChooser
   }
   public String getNext() {
     int randomNum = (int)(Math.random()*(arr.length+1));
-    if (randomNum == arr.length) {
+    if (randomNum == arr.size()) {
       return "NONE";
     } 
     int element = arr.get(randomNum);
