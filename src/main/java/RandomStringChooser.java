@@ -2,7 +2,7 @@ import java.util.*;
 public class RandomStringChooser
 {
   private ArrayList<Integer> arr; 
-  public RandomStringChooser(int[] wordArray) {
+  public RandomStringChooser(String[] wordArray) {
     arr = new ArrayList<Integer>();
     for(int i = 0; i < wordArray.length; i++) {
       arr.get(i) = wordArray[i];
