@@ -9,7 +9,7 @@ public class RandomStringChooser
     }
   }
   public String getNext() {
-    int randomNum = (int)(Math.random()*(arr.length+1));
+    int randomNum = (int)(Math.random()*(arr.size()+1));
     if (randomNum == arr.size()) {
       return "NONE";
     } 
