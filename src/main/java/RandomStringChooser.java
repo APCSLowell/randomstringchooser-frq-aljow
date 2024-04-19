@@ -13,7 +13,7 @@ public class RandomStringChooser
     if (randomNum == arr.size()) {
       return "NONE";
     } 
-    int element = arr.get(randomNum);
+    String element = new String(arr.get(randomNum));
     arr.remove(randomNum);
     return element; 
   }
