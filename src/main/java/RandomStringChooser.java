@@ -5,11 +5,11 @@ public class RandomStringChooser
   public RandomStringChooser(String[] wordArray) {
     arr = new ArrayList<String>();
     for(int i = 0; i < wordArray.length; i++) {
-      arr.get(i) = wordArray[i];
+      arr.add(wordArray[i]);
     }
   }
   public String getNext() {
-    int randomNum = (int)Math.random()*arr.length+1;
+    int randomNum = (int)Math.random()*(arr.length+1);
     if (randomNum == arr.length) {
       return "NONE";
     } 
