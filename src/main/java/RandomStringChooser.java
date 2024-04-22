@@ -2,9 +2,9 @@ import java.util.*;
 public class RandomStringChooser
 {
   private ArrayList<String> arr; 
-  public RandomStringChooser(String[] wordArray) {
+  public RandomStringChooser(String[] wordArr) {
     arr = new ArrayList<String>();
-    for(String x : wordArray) {
+    for(String x : wordArr) {
       arr.add(x);
     }
   }
